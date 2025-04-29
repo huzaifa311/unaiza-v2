@@ -34,6 +34,19 @@ header nav {
     display: none;
 }
 
+header nav .active{
+    border-bottom: 1px solid var(--primary-white);
+    padding: 5px 14px;
+}
+
+.header-scrolled nav .active{
+    border-bottom: 1px solid var(--primary-black) !important;
+}
+
+header nav .active-parent{
+    padding: 21px 6px;
+}
+
 header nav>a,
 header nav>div {
     padding: 26px 20px;

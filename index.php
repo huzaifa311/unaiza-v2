@@ -1,5 +1,6 @@
 <?php
     error_reporting(0);
+    $page = "home";
     include 'include/header.php';
 ?>
 
@@ -146,7 +147,10 @@
 <section class="timeless">
     <h1 class="theme-h1">TIMELESS DESIGN INSPIRED BY JAPANESE DESIGN PRINCIPLES</h1>
     <p class="theme-para">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eum. Pariatur natus quaerat facere atque ipsam rem temporibus totam. Laborum provident corrupti quod eius, earum exercitationem eligendi sequi laboriosam explicabo?<span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt consequuntur enim fugit maxime dolorem error, officia perferendis? Voluptate nobis, velit laboriosam ratione sit ipsa necessitatibus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eum. Pariatur natus quaerat facere atque ipsam
+        rem temporibus totam. Laborum provident corrupti quod eius, earum exercitationem eligendi sequi laboriosam
+        explicabo?<span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt consequuntur enim fugit maxime
+            dolorem error, officia perferendis? Voluptate nobis, velit laboriosam ratione sit ipsa necessitatibus.
         </span>
     </p>
 </section>
@@ -155,9 +159,11 @@
     <img src="./assets/img/masterpiece.webp" alt="">
     <div class="content">
         <h1 class="theme-h1">Cultivating Connection in Every Detail</h1>
-        <p class="theme-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt id vitae nihil earum doloremque. Doloremque cum odio consequatur a. Cumque magni provident tenetur quas dicta.<span>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam cumque et modi, aperiam eveniet velit aspernatur incidunt dolor earum similique repudiandae magnam ut doloribus sed!
-        </span></p>
+        <p class="theme-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt id vitae nihil earum
+            doloremque. Doloremque cum odio consequatur a. Cumque magni provident tenetur quas dicta.<span>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam cumque et modi, aperiam eveniet velit
+                aspernatur incidunt dolor earum similique repudiandae magnam ut doloribus sed!
+            </span></p>
         <button class="theme-btn">
             Discover Serena District
         </button>
@@ -167,7 +173,9 @@
 <section class="location">
     <div class="divider"></div>
     <h1 class="theme-h1">Unique location</h1>
-    <p class="theme-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fuga quidem dicta sint adipisci sit voluptates nostrum quae perferendis similique est non, corrupti fugiat vel minima ut. Neque fuga praesentium laborum ab delectus ipsum impedit totam saepe, ex temporibus eligendi.
+    <p class="theme-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi fuga quidem dicta sint
+        adipisci sit voluptates nostrum quae perferendis similique est non, corrupti fugiat vel minima ut. Neque fuga
+        praesentium laborum ab delectus ipsum impedit totam saepe, ex temporibus eligendi.
     </p>
     <button class="theme-btn">
         <i class="fa-solid fa-arrow-down"></i>
@@ -183,47 +191,8 @@
     </button>
 </section>
 
-<section class="register">
-    <h1 class="theme-h1">Register Your Interest</h1>
-    <form>
-        <div class="grid-container">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-        </div>
-        <input type="email" placeholder="Email Address">
-        <input type="text" placeholder="Phone Number">
-        <fieldset>
-            <legend>Select Property Type</legend>
-
-            <div class="three-grid">
-                <div>
-                    <input type="checkbox" id="property-1-bedroom" name="property_type" value="1-bedroom">
-                    <label for="property-1-bedroom">1-Bedroom</label>
-                </div>
-
-                <div>
-                    <input type="checkbox" id="property-2-bedroom" name="property_type" value="2-bedroom">
-                    <label for="property-2-bedroom">2-Bedroom</label>
-                </div>
-
-                <div>
-                    <input type="checkbox" id="property-3-bedroom" name="property_type" value="3-bedroom">
-                    <label for="property-3-bedroom">3-Bedroom</label>
-                </div>
-            </div>
-        </fieldset>
-        <textarea placeholder="Your Message" rows="6"></textarea>
-
-        <div class="policy-agree">
-            <input type="checkbox" id="policy" name="policy" value="policy">
-            <label for="policy">I agree to the Privacy Policy</label>
-        </div>
-
-        <button type="submit" class="theme-btn">Submit</button>
-    </form>
-</section>
-
 <?php
+    include 'include/register-form.php';
     include 'include/footer.php';
 ?>
 
@@ -232,7 +201,6 @@
 <script src="assets/js/gsap.js" defer></script>
 <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
 <script src="assets/js/embla.js" defer></script>
-<script src="assets/js/script.js" defer></script>
 </body>
 
 </html>

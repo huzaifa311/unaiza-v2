@@ -10,7 +10,8 @@
     <link rel="website icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/default.css">
     <link rel="stylesheet" href="./assets/css/header.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/register-footer.css">
+    <link rel="stylesheet" href="<?php echo isset($css) ? $css : './assets/css/style.css'; ?>">
     <link rel="stylesheet" href="./assets/css/embla.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
@@ -23,11 +24,17 @@
                 <img loading="lazy" src="./assets/img/logo.png" class="logo" id="logo-header" alt="Unaiza City" />
             </a>
             <nav>
-                <a href="./index.php">
-                    <h3 class="active">Home</h3>
+                <?php
+                    $isHome = isset($page) && $page === 'home';
+                ?>
+                <a href="./index.php" <?=$isHome ? ' class="active-parent"' : ''?>>
+                    <h3<?=$isHome ? ' class="active"' : ''?>>Home</h3>
                 </a>
-                <a href="./about-us.php">
-                    <h3>About</h3>
+                <?php
+                    $isAbout = isset($page) && $page === 'about';
+                ?>                
+                <a href="./about-us.php" <?=$isAbout ? ' class="active-parent"' : ''?>>
+                    <h3<?=$isAbout ? ' class="active"' : ''?>>About Us</h3>
                 </a>
                 <div class="dropdown">
                     <a href="./trips.php">
@@ -38,13 +45,16 @@
                         <li><a href="uraisha-radiance.html">Uraisha Radiance</a></li>
                     </ul>
                 </div>
-                
-                <a href="./contact.php">
-                    <h3>Contact</h3>
+
+                <?php
+                    $isContact = isset($page) && $page === 'contact';
+                ?>  
+                <a href="./contact-us.php" <?=$isContact ? ' class="active-parent"' : ''?>>
+                    <h3<?=$isContact ? ' class="active"' : ''?>>Contact Us</h3>
                 </a>
             </nav>
             <div class="right">
-                <a class="contact" href="login.php">Contact Us</a>
+                <a class="contact" href="contact-us.php">Contact Us</a>
             </div>
             <div id="menu" class="menu">
                 <i class="fa-solid fa-bars"></i>
@@ -79,7 +89,7 @@
                 </a>
             </h3>
             <h3>
-                <a href="./contact.php">
+                <a href="./contact-us.php">
                     Contact Us
                 </a>
             </h3>
