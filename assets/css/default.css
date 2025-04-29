@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #7daa71;
+    --primary-color-dark: rgb(1, 29, 24);
+    --primary-para-color: #6E6E6E;
+    --primary-heading-color: #353532;
+    --primary-white: #fff;
+    --primary-black: #040707;
+    --primary-gray: gainsboro;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--primary-gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+blockquote {
+    quotes: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    opacity: 1;
+    color: #9ca3af;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.theme-btn {
+    background-color: var(--primary-color);
+    color: var(--primary-white);
+    padding: 12px 30px;
+    border-radius: 5px;
+    width: fit-content;
+    font-size: 15px;
+}
+
+.img-text {
+    display: grid;
+    row-gap: 30px;
+}
+
+@media (min-width: 786px) {
+    .img-text {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+.divider{
+    height: 2px;
+    width: 130px;
+    background-color: var(--primary-color);
+}
+
+.theme-h1{
+    font-size: 26px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--primary-heading-color);
+    font-weight: 400;
+}
+
+.theme-para{
+    color: var(--primary-para-color);
+    font-size: 15px;
+}

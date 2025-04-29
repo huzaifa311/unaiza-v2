@@ -1,0 +1,60 @@
+.embla_carousel{
+    width: 92%;
+    margin: 110px auto 0 auto;
+}
+
+.embla {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+}
+
+.embla__container {
+    display: flex;
+}
+
+.embla__slide {
+    position: relative;
+    flex: 0 0 100%;
+    min-width: 0;
+}
+
+.embla__slide img {
+    width: 100%;
+    display: block;
+    height: auto;
+    object-fit: cover;
+}
+
+.embla__dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.embla__dot {
+    width: 9px;
+    height: 9px;
+    margin: 0 6px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+}
+
+.embla__dot.is-selected {
+    background-color: #333;
+}
+
+@media (min-width: 786px) {
+    .embla_carousel {
+        width: 86%;
+    }
+}
+
+@media (min-width: 1530px) {
+    .embla_carousel {
+        width: 1500px;
+    }
+}
