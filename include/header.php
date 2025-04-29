@@ -29,9 +29,16 @@
                 <a href="./about-us.php">
                     <h3>About</h3>
                 </a>
-                <a href="./trips.php">
-                    <h3>Trips</h3>
-                </a>
+                <div class="dropdown">
+                    <a href="./trips.php">
+                        <h3>Projects</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="uraisha-radiance.html">Uraisha Radiance</a></li>
+                    </ul>
+                </div>
+                
                 <a href="./contact.php">
                     <h3>Contact</h3>
                 </a>

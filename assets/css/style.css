@@ -5,9 +5,8 @@
     overflow: hidden;
     min-height: 86vh;
     width: 100%;
-    padding: 105px 0 50px;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
 }
 
@@ -34,18 +33,17 @@
     z-index: 20;
     width: 90%;
     position: relative;
-    padding-bottom: 40px;
 }
 
 .hero-section .content h1 {
     text-transform: uppercase;
     font-size: 30px;
-    max-width: 500px;
+    max-width: 600px;
     line-height: 1.2;
 }
 
 .hero-section .content button {
-    margin-top: 14px;
+    margin-top: 25px;
 }
 
 @media (min-width: 768px) {
@@ -59,7 +57,7 @@
     }
 
     .hero-section .content h1 {
-        font-size: 36px;
+        font-size: 52px;
         line-height: 1.2;
     }
 }
@@ -496,4 +494,8 @@ footer .third .active {
         padding: 10px 0 10px 30px;
         border-left: 1px solid var(--primary-gray);
     }
+}
+
+a{
+    pointer-events: none;
 }

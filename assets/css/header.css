@@ -14,7 +14,7 @@ header {
     color: var(--primary-black);
 }
 
-.header-scrolled .menu{
+.header-scrolled .menu {
     color: var(--primary-black);
 }
 
@@ -32,6 +32,54 @@ header>div {
 
 header nav {
     display: none;
+}
+
+header nav>a,
+header nav>div {
+    padding: 26px 20px;
+}
+
+header nav .dropdown>a {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+header nav .dropdown {
+    position: relative;
+}
+
+header nav .dropdown .sub-menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 230px;
+    padding: 20px 16px;
+    background: rgb(241, 237, 237);
+    color: var(--primary-black);
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateY(12px);
+    visibility: hidden;
+    transition:
+        opacity     .35s ease,
+        transform   .35s ease,
+        visibility  0s   linear .35s;
+}
+
+header nav .dropdown:hover .sub-menu,
+header nav .dropdown:focus-within .sub-menu{
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+    transition:
+        opacity     .35s ease,
+        transform   .35s ease,
+        visibility  0s;
+}
+
+
+header nav .dropdown i {
+    font-size: 13px;
 }
 
 header .right {
@@ -122,15 +170,15 @@ aside .user-info .dropdown.show {
     transform: translateY(0);
 }
 
-    
-aside .user-info .dropdown > a {
+
+aside .user-info .dropdown>a {
     padding: 5px 15px;
     transition: background-color 0.3s ease;
     color: #212121;
     text-decoration: none;
 }
 
-aside .user-info .dropdown > a:hover {
+aside .user-info .dropdown>a:hover {
     background-color: #f5f5f5;
 }
 
@@ -188,7 +236,6 @@ aside nav>*+* {
     header nav {
         display: flex;
         align-items: center;
-        gap: 20px;
     }
 
     header nav h3 {
@@ -226,15 +273,15 @@ aside nav>*+* {
         opacity: 1;
         transform: translateY(0);
     }
-    
-    header .user-info .dropdown > a {
+
+    header .user-info .dropdown>a {
         padding: 5px 15px;
         transition: background-color 0.3s ease;
         color: #212121;
         text-decoration: none;
     }
-    
-    header .user-info .dropdown > a:hover {
+
+    header .user-info .dropdown>a:hover {
         background-color: #f5f5f5;
     }
 
