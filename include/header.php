@@ -14,20 +14,22 @@
     <link rel="stylesheet" href="<?php echo isset($css) ? $css : './assets/css/style.css'; ?>">
     <link rel="stylesheet" href="./assets/css/embla.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.1/css/glightbox.min.css">
 </head>
 
 <body>
 
     <header id="header">
         <div>
-            <a href="./index.php">
-                <img loading="lazy" src="./assets/img/logo.png" class="logo" id="logo-header" alt="Unaiza City" />
+            <a href="./">
+                <img loading="lazy" src="./assets/img/logo-white.png" class="logo" id="logo-header" alt="Unaiza City" />
             </a>
             <nav>
                 <?php
                     $isHome = isset($page) && $page === 'home';
                 ?>
-                <a href="./index.php" <?=$isHome ? ' class="active-parent"' : ''?>>
+                <a href="./" <?=$isHome ? ' class="active-parent"' : ''?>>
                     <h3<?=$isHome ? ' class="active"' : ''?>>Home</h3>
                 </a>
                 <?php
@@ -37,12 +39,12 @@
                     <h3<?=$isAbout ? ' class="active"' : ''?>>About Us</h3>
                 </a>
                 <div class="dropdown">
-                    <a href="./trips.php">
+                    <a href="./uraisha-radiance.php">
                         <h3>Projects</h3>
                         <i class="fas fa-chevron-down"></i>
                     </a>
                     <ul class="sub-menu">
-                        <li><a href="uraisha-radiance.html">Uraisha Radiance</a></li>
+                        <li><a href="./uraisha-radiance.php">Uraisha Radiance</a></li>
                     </ul>
                 </div>
 

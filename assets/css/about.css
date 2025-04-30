@@ -58,7 +58,7 @@
     }
 
     .hero-section .content h1 {
-        font-size: 52px;
+        font-size: 46px;
         line-height: 1.2;
     }
 }
@@ -69,6 +69,10 @@
 .about-para {
     width: 92%;
     margin: 110px auto 0 auto;
+}
+
+.about-para h1{
+    font-size: 30px;
 }
 
 .about-para .content p {
@@ -95,8 +99,8 @@
     }
 
     .about-para > img {
-        margin: 0 auto;
-        width: 75%;
+        margin: 0 auto 0 0;
+        width: 87%;
         height: 330px;
     }
 }
@@ -108,87 +112,78 @@
 }
 
 
-.collection{
+.building{
     width: 92%;
-    margin: 70px auto 0 auto;
+    margin: 110px auto 0 auto;
 }
 
-.collection h1 {
-    margin-top: 30px;
+.building .grid-container{
+    display: grid;
+    align-items: center;
 }
 
-.collection p {
-    margin-top: 10px;
+.building .grid-container p {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 14px;
+    grid-column: span 6 / span 6;
+}
 
+.building .grid-container h1{
+    grid-column: span 4 / span 4;
+}
+
+.building .grid-three{
+    display: grid;
+    align-items: center;
+}
+
+.building .grid-item{
+    display: flex;
+    align-items: center;
+}
+
+.building .grid-item>img{
+    height: 50px;
+    padding-right: 15px;
+    border-right: 1px solid var(--primary-color);
+}
+
+.building .grid-item .content{
+    padding-left: 15px;
+}
+
+.building .grid-item h5{
+    font-size: 25px;
+    font-weight: 300;
+}
+.building .grid-item p{
+    font-size: 13px;
+    font-weight: 200;
 }
 
 @media (min-width: 786px) {
-    .collection {
-        width: 86%;
+    .building .grid-container {
+        grid-template-columns: repeat(10, 1fr);
     }
-}
 
-@media (min-width: 1530px) {
-    .collection {
-        width: 1500px;
+    .building .grid-three {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80%;
+        margin: 50px auto 0 auto;
+    }
+
+    .building .grid-container h1{
+        max-width: 50%;
+        margin-left: auto;
+    }
+
+    .building .grid-container p{
+        max-width: 82%;
     }
 }
 
 
 .residences .content img{
     height: 120px;
-}
-
-
-.development{
-    width: 92%;
-    margin: 80px auto 0 auto;
-    display: grid;
-    row-gap: 30px;
-}
-
-.development .img-container{
-    grid-column: span 4 / span 4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.development .img-container img{
-    height: 150px;
-}
-
-.development .content{
-    grid-column: span 6 / span 6;
-    padding: 25px 0 25px 20px;
-    border-left: 1px solid var(--primary-para-color);
-}
-
-.development .content p{
-    font-weight: 300;
-    font-size: 13px;
-    margin-top: 24px;
-}
-
-.development .content p span{
-    display: inline-block;
-    margin-top: 20px;
-}
-
-@media (min-width: 786px) {
-    .development {
-        width: 86%;
-        grid-template-columns: repeat(10, 1fr);
-        align-items: center;
-    }
-
-    .development .content{
-        padding: 25px 0 25px 55px;
-    }
-}
-
-@media (min-width: 1530px) {
-    .development {
-        width: 1500px;
-    }
 }

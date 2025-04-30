@@ -156,8 +156,12 @@
     }
 
     .masterpiece img {
-        margin: 0 auto;
-        width: 80%;
+        margin: 0 auto 0 0;
+        width: 90%;
+    }
+
+    .masterpiece .order-2{
+        margin: 0 0 0 auto;;
     }
 }
 
@@ -214,78 +218,6 @@
 }
 
 
-.timeless {
-    width: 92%;
-    margin: 80px auto 0 auto;
-}
-
-.timeless h1 {
-    max-width: 500px;
-}
-
-.timeless p {
-    margin-top: 20px;
-    font-weight: 300;
-}
-
-.timeless p span {
-    display: inline-block;
-    margin-top: 12px;
-}
-
-@media (min-width: 786px) {
-    .timeless {
-        width: 86%;
-    }
-}
-
-@media (min-width: 1530px) {
-    .timeless {
-        width: 1500px;
-    }
-}
-
-
-.connection {
-    width: 92%;
-    margin: 110px auto 0 auto;
-}
-
-.connection .content p {
-    margin-top: 20px;
-    font-weight: 300;
-}
-
-.connection .content p span {
-    display: inline-block;
-    margin-top: 12px;
-}
-
-.connection .content button {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin-top: 24px;
-}
-
-@media (min-width: 786px) {
-    .connection {
-        width: 86%;
-    }
-
-    .connection img {
-        margin: 0 auto;
-        width: 70%;
-    }
-}
-
-@media (min-width: 1530px) {
-    .connection {
-        width: 1500px;
-    }
-}
-
-
 .location {
     width: 92%;
     margin: 100px auto 0 auto;
@@ -325,13 +257,4 @@
     .location {
         width: 1500px;
     }
-}
-
-
-a{
-    pointer-events: none;
-}
-
-header a{
-    pointer-events: all !important;
 }

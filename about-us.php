@@ -9,7 +9,7 @@
 <section class="hero-section" id="hero-section">
     <div class="hero-background"></div>
     <div class="content">
-        <h1>About Unaiza City Karachi </h1>
+        <h1>About Unaiza City</h1>
     </div>
 </section>
 
@@ -17,14 +17,17 @@
 <section class="about-para img-text">
     <img src="./assets/img/about-para.webp" alt="">
     <div class="content">
-        <p class="theme-para">Unaiza City sits on Shahrah-e-Bhutto (Malir Expressway) at the center of Karachi’s prime
-            expansion corridor, giving you direct access from DHA Phase 8 and a 10-minute drive to Jinnah International
-            Airport and the National Highway. World-class connectivity and modern infrastructure place everything
-            important within easy reach.
+        <p class="theme-para">Unaiza City is a modern, thoughtfully planned community focused on sustainability,
+            connectivity, and quality living. Just 25 minutes from DHA Phase 8 via Shahrah-e-Bhutto (Malir Expressway),
+            it offers seamless access to DHA City, ARY Laguna, and Jinnah International Airport.
             <span>
-                Backed by large-scale, future-focused developments, the project blends lifestyle and high-return
-                potential. Invest now to secure a premium spot in the city’s fastest-growing district and benefit from
-                the accessibility, growth, and value that define Karachi’s next urban landmark.
+                Built on prime land, Unaiza City blends contemporary architecture with green living, providing a safe,
+                vibrant environment ideal for families, professionals, and investors. From infrastructure to amenities,
+                every detail ensures comfort, security, and long-term value.
+            </span>
+            <span>
+                At Unaiza City, we don’t just build homes — we build a lifestyle-driven community you’ll be proud to
+                call home
             </span>
         </p>
         <button class="theme-btn">
@@ -35,23 +38,53 @@
 </section>
 
 
-<section class="collection">
-    <div class="divider"></div>
-    <h1 class="theme-h1">Serenia Brand Collection</h1>
-    <p class="theme-para">
-        Serenia is Dubai’s premium residential brand, creating distinctive communities in exclusive locations.
-        Strategically positioned in prime waterfront settings, Serenia offers a collection of ultra-exclusive residences
-        in Dubai with extraordinary amenities & featuring fantastic panoramic views of The Palm & the Dubai skyline.
-    </p>
+<section class="building">
+    <div class="grid-container">
+        <h1 class="theme-h1">
+            Building Tomorrow’s Lifestyle, Today
+        </h1>
+        <p class="theme-para">
+            At Unaiza City, we’re changing the way you experience modern living by focusing on quality, convenience, and
+            long-term value. Ideally located just 25 minutes from DHA Phase 8 through the Malir Expressway, Unaiza City
+            offers a smooth mix of premium living spaces, smart community planning, and strong connectivity to major
+            parts of Karachi.
+            <span>
+                Built for families, investors, and working professionals, Unaiza City brings you flexible 5-year
+                installment plans, low possession costs, and a secure, gated lifestyle — all close to DHA City, ARY
+                Laguna, Jinnah International Airport, and leading educational institutions.
+            </span>
+        </p>
+    </div>
+    <div class="grid-three">
+        <div class="grid-item">
+            <img src="./assets/img/icons/installment.png" alt="">
+            <div class="content">
+                <h5>5-Year</h5>
+                <p>Flexible Installment Plan</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="./assets/img/icons/low-possession.png" alt="">
+            <div class="content">
+                <h5>18%</h5>
+                <p>Low Possession Cost</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="./assets/img/icons/minutes.png" alt="">
+            <div class="content">
+                <h5>25 Mins</h5>
+                <p>from DHA Phase 8 via Malir Expressway</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 
 <section class="about-para residences img-text">
     <div class="content">
-        <img src="./assets/img/PD-Logo-14.svg" alt="PD-Logo-14">
-        <p class="theme-para">Serenia Residences offers a refined beachfront living and is Palma Development’s very own
-            definition of premium living. It has already set a benchmark for excellence and world-class standards and is
-            located on the Palm Jumeirah, making it the first residential project on the most coveted crescent.</p>
+        <h1 class="theme-h1">Our Vision</h1>
+        <p class="theme-para">Unaiza City aspires to become Karachi’s most trusted and dynamic community, delivering exceptional living standards through innovation, connectivity, and sustainable growth — empowering families and investors for generations to come.</p>
     </div>
     <img src="./assets/img/residences.webp" alt="">
 </section>
@@ -60,56 +93,10 @@
 <section class="about-para residences img-text">
     <img src="./assets/img/living.webp" alt="">
     <div class="content">
-        <img src="./assets/img/living.svg" alt="PD-Logo-14">
-        <p class="theme-para">Serenia Residences offers a refined beachfront living and is Palma Development’s very own
-            definition of premium living. It has already set a benchmark for excellence and world-class standards and is
-            located on the Palm Jumeirah, making it the first residential project on the most coveted crescent.</p>
-    </div>
-</section>
-
-
-<section class="development">
-    <div class="img-container">
-        <img src="./assets/img/PD-Logo-12.svg" alt="PD-Logo-12">
-    </div>
-    <div class="content">
-        <div class="theme-h1">Palma Development</div>
-        <p class="theme-para">
-            Palma Development focuses on creating exclusive projects within leading communities in Dubai. Our mission is
-            to develop only the finest and most outstanding properties that meet the premium lifestyle needs of clients
-            while ensuring superior investment returns and growing wealth.
-
-            <span>
-                Since our establishment, we have completed 15 projects over 8 million square feet in some of the finest
-                districts in Dubai, with a total value of more than AED 16 billion (USD 4.3 billion). Our developments
-                are transforming the Dubai skyline and providing significant opportunities for our investors. Some of
-                our flagship projects include the Infinity Cayan Tower and Silverene Towers in the Dubai Marina
-                district.
-            </span>
-        </p>
-    </div>
-</section>
-
-
-<section class="development">
-    <div class="img-container">
-        <img src="./assets/img/PD-Logo-13.svg" alt="PD-Logo-13">
-    </div>
-    <div class="content">
-        <div class="theme-h1">Banian</div>
-        <p class="theme-para">
-            Palma Development focuses on creating exclusive projects within leading communities in Dubai. Our mission is
-            to develop only the finest and most outstanding properties that meet the premium lifestyle needs of clients
-            while ensuring superior investment returns and growing wealth.
-
-            <span>
-                Since our establishment, we have completed 15 projects over 8 million square feet in some of the finest
-                districts in Dubai, with a total value of more than AED 16 billion (USD 4.3 billion). Our developments
-                are transforming the Dubai skyline and providing significant opportunities for our investors. Some of
-                our flagship projects include the Infinity Cayan Tower and Silverene Towers in the Dubai Marina
-                district.
-            </span>
-        </p>
+        <h1 class="theme-h1">Our Mission</h1>
+        <p class="theme-para">At Unaiza City, our mission is to redefine urban living by creating secure, modern, and sustainable communities.
+            We are committed to offering prime locations, flexible payment solutions, premium infrastructure, and a lifestyle of comfort and opportunity — just 25 minutes away from DHA Phase 8 via Malir Expressway.
+            Our goal is to build not just homes, but lasting value for every resident and investor.</p>
     </div>
 </section>
 

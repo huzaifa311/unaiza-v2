@@ -1,0 +1,288 @@
+/* .................................... Hero Section Starts .................................. */
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    min-height: 86vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/uraisha-bg.webp") center/cover no-repeat;
+    z-index: 1;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}
+
+.hero-section .content {
+    color: var(--primary-white);
+    z-index: 20;
+    width: 90%;
+    position: relative;
+}
+
+.hero-section .content h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    max-width: 600px;
+    line-height: 1.2;
+}
+
+.hero-section .content button {
+    margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+    .hero-section {
+        background-position: top right;
+        min-height: 100vh !important;
+    }
+
+    .hero-section .content {
+        width: 78%;
+        padding-top: 120px;
+    }
+
+    .hero-section .content h1 {
+        font-size: 46px;
+        line-height: 1.2;
+    }
+}
+
+/* .................................... Hero Section Ends .................................. */
+
+
+.about-uraisha {
+    width: 92%;
+    margin: 110px auto 0 auto;
+    align-items: center;
+}
+
+.about-uraisha h1 {
+    font-size: 30px;
+}
+
+.about-uraisha p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.about-uraisha p span {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+@media (min-width: 786px) {
+    .about-uraisha {
+        width: 86%;
+    }
+
+    .about-uraisha>img {
+        margin: 0 auto;
+        width: 70%;
+    }
+}
+
+@media (min-width: 1530px) {
+    .about-uraisha {
+        width: 1500px;
+    }
+}
+
+
+.facilities {
+    width: 92%;
+    margin: 100px auto 0 auto;
+}
+
+.facilities h1 {
+    margin-top: 40px;
+}
+
+.facilities .grid-container {
+    display: grid;
+    text-align: center;
+    margin-top: 25px;
+    row-gap: 30px;
+}
+
+.facilities .grid-container .grid-item .icon-container {
+    width: 100%;
+    height: 120px;
+    background-color: #E7E6E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.facilities .grid-container .grid-item .icon-container img {
+    height: 60px;
+
+}
+
+.facilities .grid-container .grid-item p {
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--primary-heading-color);
+    max-width: 90%;
+    margin: 10px auto 0 auto;
+}
+
+@media (min-width: 786px) {
+    .facilities {
+        width: 80%;
+        margin: 98px auto 0 auto;
+    }
+
+    .facilities .grid-container {
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 30px;
+    }
+}
+
+@media (min-width: 1530px) {
+    .facilities {
+        width: 1500px;
+    }
+}
+
+
+.gallery {
+    width: 92%;
+    margin: 100px auto 0 auto;
+}
+
+.gallery h1 {
+    margin-top: 40px;
+    font-size: 36px;
+}
+
+.gallery .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 25px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.gallery .gallery-grid img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+@media (min-width: 786px) {
+    .gallery {
+        width: 70%;
+        margin: 98px auto 0 auto;
+    }
+
+    .gallery .gallery-grid {
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media (min-width: 1530px) {
+    .gallery {
+        width: 1500px;
+    }
+}
+
+.paymentplan {
+    width: 100%;
+    margin: 110px auto 0 auto;
+}
+
+.paymentplan h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.payment-plan-uraisha {
+    background: url("../img/plan-bg.jpg") center/cover no-repeat;
+    padding: 30px 25px;
+    border-radius: 12px;
+    overflow-x: scroll;
+    color: #ffffff;
+}
+
+.page-title strong {
+    color: var(--primary-white);
+}
+
+.payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(125, 170, 113, 0.3);
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+}
+
+.payment-table thead {
+    background: var(--primary-color);
+}
+
+.payment-table th,
+.payment-table td {
+    padding: 18px 12px;
+    text-align: center;
+}
+
+.payment-table th {
+    vertical-align: middle;
+    font-weight: 600;
+    color: var(--accent-yellow);
+}
+
+.payment-table tbody tr:nth-of-type(odd),
+.payment-table tbody tr:hover {
+    background: transparent;
+}
+
+.note {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #dddddd;
+}
+
+@media (min-width: 786px) {
+    .paymentplan {
+        width: 86%;
+    }
+
+    .payment-plan-uraisha {
+        padding: 55px 50px;
+    }
+}
+
+@media (min-width: 1530px) {
+    .paymentplan {
+        width: 1500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .paymentplan>h1, .paymentplan .divider{
+        margin-left: 25px;
+    } 
+}

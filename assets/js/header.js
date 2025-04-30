@@ -20,6 +20,6 @@ window.addEventListener("scroll", function () {
         logo.src = "./assets/img/logo.png"
     } else {
         header.classList.remove("header-scrolled");
-        logo.src = "./assets/img/logo.png"
+        logo.src = "./assets/img/logo-white.png"
     }
 });
