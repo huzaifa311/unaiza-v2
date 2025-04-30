@@ -258,3 +258,8 @@
         width: 1500px;
     }
 }
+
+
+.maps img{
+    border-radius: 10px !important;
+}

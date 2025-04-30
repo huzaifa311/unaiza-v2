@@ -120,11 +120,10 @@
 <section class="embla_carousel">
     <div class="embla">
         <div class="embla__container">
-            <div class="embla__slide"><img src="./assets/img/embla/1.webp" alt="Slide 1"></div>
-            <div class="embla__slide"><img src="./assets/img/embla/2.webp" alt="Slide 2"></div>
-            <div class="embla__slide"><img src="./assets/img/embla/3.webp" alt="Slide 3"></div>
-            <div class="embla__slide"><img src="./assets/img/embla/4.webp" alt="Slide 4"></div>
-            <div class="embla__slide"><img src="./assets/img/embla/5.webp" alt="Slide 5"></div>
+            <div class="embla__slide"><img src="./assets/img/hero-bg/MAIN-COVER-BANNER-1.webp" alt="Slide 1"></div>
+            <div class="embla__slide"><img src="./assets/img/hero-bg/MAIN-COVER-BANNER-2.png" alt="Slide 2"></div>
+            <div class="embla__slide"><img src="./assets/img/hero-bg/MAIN-COVER-BANNER-3.png" alt="Slide 3"></div>
+            <div class="embla__slide"><img src="./assets/img/hero-bg/MAIN-COVER-BANNER-5.png" alt="Slide 4"></div>
         </div>
     </div>
     <div class="embla__dots"></div>

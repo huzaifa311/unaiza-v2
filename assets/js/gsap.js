@@ -2,8 +2,7 @@ const heroSlides = [
     { bg: "./assets/img/hero-bg/MAIN-COVER-BANNER-1.webp" },
     { bg: "./assets/img/hero-bg/MAIN-COVER-BANNER-2.png" },
     { bg: "./assets/img/hero-bg/MAIN-COVER-BANNER-3.png" },
-    { bg: "./assets/img/hero-bg/MAIN-COVER-BANNER-5.png" },
-    { bg: "./assets/img/hero-bg/MAIN-COVER-BANNER-6.png" }
+    { bg: "./assets/img/hero-bg/MAIN-COVER-BANNER-5.png" }
   ];
   
   const heroSection = document.getElementById("hero-section");
@@ -50,7 +49,7 @@ const heroSlides = [
   }
   
   function startSlider() {
-    slideInterval = setInterval(changeHeroContent, 5000);
+    slideInterval = setInterval(changeHeroContent, 8000);
   }
   
   preloadImages();
