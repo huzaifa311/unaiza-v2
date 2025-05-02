@@ -84,7 +84,7 @@
 <section class="about-para residences img-text">
     <div class="content">
         <h1 class="theme-h1">Our Vision</h1>
-        <p class="theme-para">Unaiza City aspires to become Karachi’s most trusted and dynamic community, delivering exceptional living standards through innovation, connectivity, and sustainable growth — empowering families and investors for generations to come.</p>
+        <p class="theme-para pr">Unaiza City aspires to become Karachi’s most trusted and dynamic community, delivering exceptional living standards through innovation, connectivity, and sustainable growth — empowering families and investors for generations to come.</p>
     </div>
     <img src="./assets/img/residences.webp" alt="">
 </section>

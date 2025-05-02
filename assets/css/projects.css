@@ -222,7 +222,6 @@
     background: url("../img/plan-bg.jpg") center/cover no-repeat;
     padding: 30px 25px;
     border-radius: 12px;
-    overflow-x: scroll;
     color: #ffffff;
 }
 
@@ -234,8 +233,9 @@
     width: 100%;
     border-collapse: collapse;
     background: rgba(125, 170, 113, 0.3);
-    border: 1px solid #ffffff;
-    border-radius: 12px;
+    outline: 2px solid #ffffff;
+    border-radius: 14px;
+    overflow: hidden;
 }
 
 .payment-table thead {
@@ -285,4 +285,8 @@
     .paymentplan>h1, .paymentplan .divider{
         margin-left: 25px;
     } 
+
+    .payment-plan-uraisha{
+        overflow-x: scroll;
+    }
 }

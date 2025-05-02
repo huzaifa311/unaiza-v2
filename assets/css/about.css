@@ -187,3 +187,9 @@
 .residences .content img{
     height: 120px;
 }
+
+@media (min-width: 786px) {
+    .residences .pr{
+        padding-right: 50px;
+    }
+}

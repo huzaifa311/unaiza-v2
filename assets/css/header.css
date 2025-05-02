@@ -324,3 +324,7 @@ aside nav>*+* {
         display: none;
     }
 }
+
+img{
+    border-radius: 8px;
+}
