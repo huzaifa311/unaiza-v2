@@ -44,7 +44,8 @@
         </div>
     </div>
     <p class="theme-para">
-        Situated in one of Karachi’s fastest-growing areas, Unaiza City ensures you are always connected to the best the city has
+        Situated in one of Karachi’s fastest-growing areas, Unaiza City ensures you are always connected to the best the
+        city has
         to offer — making it the ideal location for living, investing, and
         thriving.
     </p>
@@ -54,7 +55,9 @@
     <img src="./assets/img/green-spaces.avif" alt="">
     <div class="content">
         <h1 class="theme-h1">A Green Escape for Families</h1>
-        <p class="theme-para">At Unaiza City, life is enriched by beautifully designed parks and generous green spaces. Tree-lined walkways, dedicated family recreation areas, and thoughtfully landscaped gardens create a refreshing, peaceful environment — seamlessly blending nature with everyday living.</p>
+        <p class="theme-para">At Unaiza City, life is enriched by beautifully designed parks and generous green spaces.
+            Tree-lined walkways, dedicated family recreation areas, and thoughtfully landscaped gardens create a
+            refreshing, peaceful environment — seamlessly blending nature with everyday living.</p>
         <button class="theme-btn">
             <i class="fa-solid fa-arrow-down"></i>
             Download Brochure
@@ -65,7 +68,10 @@
 <section class="masterpiece img-text">
     <div class="content">
         <h1 class="theme-h1">Quality Healthcare Within Reach</h1>
-        <p class="theme-para">Unaiza City offers the convenience of being close to some of Karachi’s top healthcare facilities. Residents benefit from quick access to high-quality medical care, with several well-known Hospitals just minutes away. Whether it's routine checkups or emergency services, world-class healthcare is always within easy reach, providing peace of mind for you and your family</p>
+        <p class="theme-para">Unaiza City offers the convenience of being close to some of Karachi’s top healthcare
+            facilities. Residents benefit from quick access to high-quality medical care, with several well-known
+            Hospitals just minutes away. Whether it's routine checkups or emergency services, world-class healthcare is
+            always within easy reach, providing peace of mind for you and your family</p>
         <button class="theme-btn">
             <i class="fa-solid fa-arrow-down"></i>
             Download Brochure
@@ -78,7 +84,10 @@
     <img src="./assets/img/institute.avif" alt="">
     <div class="content">
         <h1 class="theme-h1">LEADING EDUCATIONAL INSTITUTIONS NEARBY</h1>
-        <p class="theme-para">Unaiza City is ideally located for families seeking excellent educational opportunities. The community is surrounded by a range of reputable schools, colleges, and universities, offering a strong academic foundation for students of all ages. With quality education just a short drive away, Unaiza City ensures your children have access to the resources they need to thrive</p>
+        <p class="theme-para">Unaiza City is ideally located for families seeking excellent educational opportunities.
+            The community is surrounded by a range of reputable schools, colleges, and universities, offering a strong
+            academic foundation for students of all ages. With quality education just a short drive away, Unaiza City
+            ensures your children have access to the resources they need to thrive</p>
         <button class="theme-btn">
             <i class="fa-solid fa-arrow-down"></i>
             Download Brochure
@@ -132,7 +141,10 @@
 <section class="location">
     <div class="divider"></div>
     <h1 class="theme-h1">Unique location</h1>
-    <p class="theme-para">Unaiza City enjoys a truly strategic and well-connected location, offering easy access to major highways, commercial hubs, and essential services. Nestled in a rapidly growing corridor near DHA City, this prime positioning not only ensures convenience for daily commuting but also adds exceptional long-term value for investors and residents alike
+    <p class="theme-para">Unaiza City enjoys a truly strategic and well-connected location, offering easy access to
+        major highways, commercial hubs, and essential services. Nestled in a rapidly growing corridor near DHA City,
+        this prime positioning not only ensures convenience for daily commuting but also adds exceptional long-term
+        value for investors and residents alike
     </p>
     <button class="theme-btn">
         <i class="fa-solid fa-arrow-down"></i>
@@ -141,9 +153,14 @@
 
     <div class="maps">
         <img src="./assets/img/map-location/1.webp" alt="Location Map 1">
-        <img src="./assets/img/map-location/2.webp" alt="Location Map 2">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.035008227948!2d67.4139291!3d25.0021483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x394cb5bc94af8dc3%3A0x1cb5179554dfc9f6!2sUNAIZA%20CITY%20PVT%20LTD!5e0!3m2!1sen!2s!4v1714637872751!5m2!1sen!2s"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
     </div>
-    <a href="https://emap.pk/unaiza-city-karachi-map" target="_blank">
+    <a href="https://maps.app.goo.gl/wddMi9WXVv9WEtTZ7" target="_blank">
         <button class="theme-btn">
             Go to the Map
         </button>

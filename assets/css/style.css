@@ -247,6 +247,11 @@
     width: 88%;
 }
 
+.location .maps iframe{
+    width: 100%;
+    min-height: 400px;
+}
+
 @media (min-width: 786px) {
     .location {
         width: 86%;
@@ -260,6 +265,6 @@
 }
 
 
-.maps img{
+.maps img, .maps iframe{
     border-radius: 10px !important;
 }
