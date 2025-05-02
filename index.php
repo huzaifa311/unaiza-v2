@@ -160,6 +160,7 @@
 <script src="assets/js/gsap.js" defer></script>
 <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
 <script src="assets/js/embla.js" defer></script>
+<script src="assets/js/script.js" defer></script>
 </body>
 
 </html>

@@ -220,6 +220,7 @@
     // one-line initialisation
     GLightbox({ selector: '.glightbox' });
 </script>
+<script src="assets/js/script.js" defer></script>
 
 </body>
 

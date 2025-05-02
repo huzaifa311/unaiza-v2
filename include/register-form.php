@@ -1,12 +1,12 @@
 <section class="register">
     <h1 class="theme-h1">Register Your Interest</h1>
-    <form>
+    <form id="enquiry-form">
         <div class="grid-container">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="First Name" id="firstName" required>
+            <input type="text" placeholder="Last Name" id="lastName">
         </div>
-        <input type="email" placeholder="Email Address">
-        <input type="text" placeholder="Phone Number">
+        <input type="email" placeholder="Email Address" id="email" required>
+        <input type="text" placeholder="Phone Number" id="phone" required>
         <fieldset>
             <legend>Select Property Type</legend>
 
@@ -27,7 +27,7 @@
                 </div>
             </div>
         </fieldset>
-        <textarea placeholder="Your Message" rows="6"></textarea>
+        <textarea id="desc" placeholder="Your Message" rows="6"></textarea>
 
         <div class="policy-agree">
             <input type="checkbox" id="policy" name="policy" value="policy">
