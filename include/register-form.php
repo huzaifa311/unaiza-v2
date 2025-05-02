@@ -34,6 +34,6 @@
             <label for="policy">I agree to the Privacy Policy</label>
         </div>
 
-        <button type="submit" class="theme-btn">Submit</button>
+        <button id="form-submit" type="submit" class="theme-btn">Submit</button>
     </form>
 </section>

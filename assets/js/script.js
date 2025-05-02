@@ -1,7 +1,14 @@
 document.getElementById("enquiry-form").addEventListener("submit", async function (e) {
     e.preventDefault();
 
+    const submitBtn = document.getElementById('form-submit');
+    const originalText = submitBtn.innerHTML;
+
     try {
+        // Set loading state
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = "Submitting...";
+
         const firstName = document.getElementById('firstName').value;
         const lastName = document.getElementById('lastName').value;
         const email = document.getElementById('email').value;
@@ -32,10 +39,16 @@ document.getElementById("enquiry-form").addEventListener("submit", async functio
             },
             body: JSON.stringify(objToSend),
         });
+
         e.target.reset();
         alert("Form Submitted Successfully");
+
     } catch (error) {
         console.error("Error during API call:", error);
         alert("An error occurred while submitting the form. Please try again.");
+    } finally {
+        // Reset button state
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalText;
     }
 });
