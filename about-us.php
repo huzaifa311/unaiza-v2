@@ -86,12 +86,12 @@
         <h1 class="theme-h1">Our Vision</h1>
         <p class="theme-para pr">Unaiza City aspires to become Karachi’s most trusted and dynamic community, delivering exceptional living standards through innovation, connectivity, and sustainable growth — empowering families and investors for generations to come.</p>
     </div>
-    <img src="./assets/img/residences.webp" alt="">
+    <img src="./assets/img/vision.avif" alt="">
 </section>
 
 
 <section class="about-para residences img-text">
-    <img src="./assets/img/living.webp" alt="">
+    <img src="./assets/img/mission.jpg" alt="">
     <div class="content">
         <h1 class="theme-h1">Our Mission</h1>
         <p class="theme-para">At Unaiza City, our mission is to redefine urban living by creating secure, modern, and sustainable communities.
